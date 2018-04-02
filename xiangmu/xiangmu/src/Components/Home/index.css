@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box; }
+
+.carousel img {
+  width: 100%; }
+
+.home_ul {
+  width: 100%;
+  height: 50px;
+  background: red;
+  display: flex;
+  flex-direction: row; }
+  .home_ul li {
+    list-style: none;
+    float: left;
+    height: 50px;
+    background: green;
+    flex: 1; }
+    .home_ul li a {
+      font-size: 10px;
+      width: 100%;
+      text-align: center; }
+      .home_ul li a img {
+        display: block;
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 0 auto; }

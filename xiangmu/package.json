@@ -5,11 +5,13 @@
   "dependencies": {
     "axios": "^0.18.0",
     "node-sass-chokidar": "^1.2.2",
-    "react": "^16.2.0",
+    "react": "^16.3.0",
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "react-swipe": "^5.1.1",
+    "swipe-js-iso": "^2.0.4"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
@@ -24,6 +26,12 @@
       "target": "https://m.maizuo.com",
       "host": "m.maizuo.com",
       "changeOrigin": true
+    },
+    "/ajax": {
+      "target": "http://m.taoche.com",
+      "host": "m.taoche.com",
+      "changeOrigin": true
     }
   }
+  
 }
